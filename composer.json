@@ -1,0 +1,29 @@
+{
+    "name": "yangyiyi/multiple-domain",
+    "description": "Auto structure the multiple domain by using all the file in config > domain.",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tommy Liew",
+            "email": "tommywudo1990@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "YangYiYi\\MultipleDomain\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YangYiYi\\MultipleDomain\\ServiceProvider"
+            ]
+        }
+    }
+}
