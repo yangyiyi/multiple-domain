@@ -11,6 +11,9 @@ class Domain
     const MODE_PREFIX = 'prefix';
     const MODE_DOMAIN = 'domain';
 
+    const TYPE_WEB = 'web';
+    const TYPE_API = 'api';
+
     private string $mode;
     private Collection $domains;
 
