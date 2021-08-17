@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## 2021-08-11
 1. Added two default ['web.php'](config/web.php) & ['api.php'](config/api.php) to allow [`Domain.php`](src/Domain.php) based on the config to generate the route.
 2. Added domain type in [`Domain.php`](src/Domain.php).
-3. Added laravel publish command function and merge config function in [`ServiceProvider`](ServiceProvider.php).
+3. Added laravel publish command function and merge config function in [`ServiceProvider`](src/ServiceProvider.php).
 
 ## [0.0.2] - 2021-07-15
 1. Added [`Domain.php`](src/Domain.php) to handle the Route structure generate.
